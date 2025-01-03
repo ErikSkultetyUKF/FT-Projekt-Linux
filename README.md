@@ -4,4 +4,5 @@ Tento repozitár obsahuje súbory pre projekt, samostné zatiaľ súbory neobsah
 
 ---
 ## Použité IDE
+
 [JetBrains WebStorm](https://www.jetbrains.com/webstorm/)
