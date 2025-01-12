@@ -1,0 +1,9 @@
+/* Desktopové zobrazenie, zmeny velkostí */
+@media screen and (min-width: 768px) {
+    .distro-img {
+        width: 610px;
+    }
+    .entry, .message {
+        width: 500px;
+    }
+}

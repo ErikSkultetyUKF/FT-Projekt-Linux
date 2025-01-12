@@ -1,0 +1,32 @@
+{
+  "webpages": [
+    {
+      "name": "It's FOSS",
+      "link": "https://itsfoss.com/",
+      "img": "itsfoss.png",
+      "imgDesc":"its-foss-logo",
+      "id": 1
+    },
+    {
+      "name": "9to5linux",
+      "link": "https://9to5linux.com/",
+      "img": "9to5linux.png",
+      "imgDesc":"9to5linux-logo",
+      "id": 2
+    },
+    {
+      "name": "How-To Geek (Linux Category)",
+      "link": "https://www.howtogeek.com/category/linux/",
+      "img": "htg-logo.png",
+      "imgDesc":"how-to-geek-logo",
+      "id": 3
+    },
+    {
+      "name": "OMG! Ubuntu",
+      "link": "https://omgubuntu.co.uk/",
+      "img": "omg-ubuntu.png",
+      "imgDesc":"omg-ubuntu-logo",
+      "id": 4
+    }
+  ]
+}

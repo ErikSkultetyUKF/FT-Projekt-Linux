@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "slug": "olinuxe",
+      "name": "O Linuxe"
+    },
+    {
+      "id": 2,
+      "slug": "distribucie",
+      "name": "Distribúcie"
+    },
+    {
+      "id": 3,
+      "slug": "komunita",
+      "name": "Komunita"
+    },
+    {
+      "id": 4,
+      "slug": "prispiet",
+      "name": "Prispieť"
+    }
+  ]
+}

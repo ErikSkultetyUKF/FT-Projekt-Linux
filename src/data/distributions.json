@@ -1,0 +1,59 @@
+{
+  "distros": [
+    {
+      "id": 1,
+      "slug": "linux-mint",
+      "name": "Linux Mint",
+      "logo": "mint.svg",
+      "logoDesc": "linux-mint-logo",
+      "img": "mint.png",
+      "imgDesc": "linux-mint",
+      "weblink": "https://linuxmint.com/",
+      "text": "Linux Mint sa stal jednou z najlepších distribúcií pre začínajúcich používateľov Linuxu vďaka jednoduchému použitiu. Je to operačný systém založený na Ubuntu, ktorý je vhodný na každodenné používanie a hranie hier. Vďaka pocitu Mintu ako Windows sa používatelia, ktorí prechádzajú z Windowsu, cítia ako doma a je jedným z hlavných predajných bodov distribúcie."
+    },
+    {
+      "id": 2,
+      "slug": "manjaro",
+      "name": "Manjaro",
+      "logo": "manjaro.svg",
+      "logoDesc": "manjaro-logo",
+      "img": "manjaro.png",
+      "imgDesc": "manjaro",
+      "weblink": "https://manjaro.org",
+      "text": "Manjaro sa špeciálne zameriava na dostupnosť a užívateľskú prívetivosť. Vyznačuje sa rolovacím uvoľňovacím modelom. Jeho jednoduchosť, stabilita a výkon z neho robí vhodnú alternatívu OS k MacOS a Windows. Ponúka viacero desktopových prostredí."
+    },
+    {
+      "id": 3,
+      "slug": "fedora",
+      "name": "Fedora",
+      "logo": "fedora.svg",
+      "logoDesc": "fedora-logo",
+      "img": "fedora.png",
+      "imgDesc": "fedora",
+      "weblink": "https://fedoraproject.org/",
+      "text": "Fedora, postavená a udržiavaná projektom Fedora (a sponzorovaná Red Hat), celosvetovou komunitou dobrovoľníkov a vývojárov, je už roky jednou z najpoužívanejších distribúcií. Snáď najvýraznejšou charakteristikou Fedory je, že je vždy na čele integrácie nových verzií balíkov a technológií do distribúcie."
+    },
+    {
+      "id": 4,
+      "slug": "debian",
+      "name": "Debian",
+      "logo": "debian.svg",
+      "logoDesc": "debian-logo",
+      "img": "debian.png",
+      "imgDesc": "debian",
+      "weblink": "https://www.debian.org/",
+      "text": "Debian je rozšírenou alternatívou pre používateľov, ktorí chcú maximálnu odolnosť a dôveryhodnosť. Funguje od roku 1993 a stále pravidelne uvádza na trh najnovšie verzie. Počas životnosti každého balíka poskytuje racionálnu predvolenú konfiguráciu a časté aktualizácie zabezpečenia. Okrem toho Debian slúži ako framework pre mnohé známe distribúcie Linuxu, najmä Ubuntu, Knoppix, PureOS a Tails."
+    },
+    {
+      "id": 5,
+      "slug": "opensuse-leap",
+      "name": "OpenSUSE Leap",
+      "logo": "opensuse-leap.svg",
+      "logoDesc": "opensuse-leap-logo",
+      "img": "opensuse-leap.png",
+      "imgDesc": "opensuse-leap",
+      "weblink": "https://www.opensuse.org/",
+      "text": "OpenSUSE Leap je zameraná na profesionálne použitie. Je založená na SUSE Linux Enterprise Server a bola vytvorená s cieľom poskytnúť robustný, dôveryhodný a bezpečný operačný systém. OpenSUSE Leap tiež prichádza s množstvom nástrojov, ktoré sú navrhnuté tak, aby zefektívnili vašu prácu. Má ďalšie funkcie, ktoré z neho robia fantastickú možnosť pre podniky. V prvom rade ide o veľmi stabilnú distribúciu."
+    }
+  ]
+}

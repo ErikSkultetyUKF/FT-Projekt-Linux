@@ -1,0 +1,32 @@
+{
+  "creators": [
+    {
+      "name": "The Linux Experiment (Youtube)",
+      "link": "https://youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw/",
+      "img": "the-linux-experiment.png",
+      "imgDesc": "the-linux-experiment-logo",
+      "id": 1
+    },
+    {
+      "name": "Learn Linux TV (Youtube)",
+      "link": "https://youtube.com/channel/UCxQKHvKbmSzGMvUrVtJYnUA/",
+      "img": "learn-linux-tv.png",
+      "imgDesc": "learn-linux-tv-logo",
+      "id": 2
+    },
+    {
+      "name": "DistroTube (Youtube)",
+      "link": "https://youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg/",
+      "img": "distrotube.png",
+      "imgDesc": "distrotube-logo",
+      "id": 3
+    },
+    {
+      "name": "TechHut (Youtube)",
+      "link": "https://youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w/",
+      "img": "techhut.png",
+      "imgDesc": "techhut-logo",
+      "id": 4
+    }
+  ]
+}

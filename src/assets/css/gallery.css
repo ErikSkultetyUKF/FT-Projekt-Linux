@@ -1,0 +1,28 @@
+/* Štýl pre linky v komunite */
+.gallery {
+    display: inline-flex;
+    margin: 0.25rem;
+    width: 210px;
+    background-color: #f5f5ff;
+    border: 1px solid transparent;
+    transition: all 100ms ease-in-out;
+}
+.gallery:hover {
+    border: 1px solid #a0a0ef;
+}
+/* Div pre text linku */
+.gallery-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 100px;
+}
+.gallery-img {
+    width: 100%;
+    height: auto;
+}
+.gallery-img-fixed-210 {
+    width: 210px;
+    height: 210px;
+}
