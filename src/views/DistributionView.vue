@@ -1,4 +1,7 @@
 <template>
+
+  <v-btn @click="$router.back()">Späť</v-btn>
+
   <div class="flex-center">
     <img id="logo" :src="'/img/distributions/logo/'+ distro.logo" :alt="distro.logoDesc">
     <h1>{{ distro.name }}</h1>
