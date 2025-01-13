@@ -3,16 +3,15 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <v-theme-provider :theme="theme" class="pa-10">
+  <v-theme-provider :theme="theme"class="pa-10">
     <v-app>
-      <Navigation></Navigation>
+
+      <Navigation :theme="theme" @toggle-theme="switchTheme" ></Navigation>
       <v-main>
-        <v-tab @click="switchTheme">
-          Motív
-        </v-tab>
         <RouterView :key="$route.fullPath"/>
       </v-main>
       <Footer></Footer>
+      
     </v-app>
   </v-theme-provider>
 </template>
