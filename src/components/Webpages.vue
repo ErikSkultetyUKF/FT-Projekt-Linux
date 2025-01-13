@@ -10,7 +10,7 @@
       <v-card>
         <a :href="webpage.link" target="_blank">
           <img
-              class="gallery-img"
+              class="img-gallery"
               :src="'/img/community/webpages/' + webpage.img"
               :alt="webpage.imgDesc"
           >

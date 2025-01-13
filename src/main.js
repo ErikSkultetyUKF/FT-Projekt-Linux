@@ -2,13 +2,9 @@
 import '@mdi/font/css/materialdesignicons.css';
 
 // CSS
-import './assets/css/style.css'
-import './assets/css/gallery.css'
-import './assets/css/accordion.css'
-import './assets/css/slider.css'
-import './assets/css/desktop.css'
-import './assets/css/mobile.css'
+import './assets/main.css'
 
+// Vue
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'

@@ -10,7 +10,7 @@
       <v-card>
         <a :href="creator.link" target="_blank">
           <img
-              class="gallery-img"
+              class="img-gallery"
               :src="'/img/community/content-creators/' + creator.img"
               :alt="creator.imgDesc"
           >

@@ -2,17 +2,21 @@
   <v-container>
     <v-btn @click="$router.back()">Späť</v-btn>
 
-    <div class="flex-center my-8">
-      <img id="logo" :src="'/img/distributions/logo/'+ distro.logo" :alt="distro.logoDesc">
+    <div class="d-flex align-center my-8">
+      <img
+          :src="'/img/distributions/logo/'+ distro.logo"
+          :alt="distro.logoDesc"
+          class="img-distro-logo"
+      >
       <h3 class="text-h3">{{ distro.name }}</h3>
     </div>
 
     <div>
-      <img class="distro-img" :src="'/img/distributions/' + distro.img" :alt="distro.imgDesc">
+      <img class="img-distro" :src="'/img/distributions/' + distro.img" :alt="distro.imgDesc">
       <p class="my-10">{{ distro.text }}</p>
     </div>
 
-    <div class="zdroje mt-0">
+    <div class="mt-0">
       <h5 class="text-h5"><b>Webová stránka:</b></h5>
       <a :href="distro.weblink" target="_blank">{{ distro.weblink }}</a>
 

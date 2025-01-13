@@ -10,12 +10,12 @@
       }">
 
     <div class="gallery">
-      <v-card class="c-grayish">
-        <img
-            class="gallery-img-fixed-210"
+      <v-card>
+        <v-img
             :src="'/img/distributions/logo/' + distro.logo"
             :alt="distro.logoDesc"
-        >
+            class="img-gallery-fixed-210"
+        ></v-img>
         <div class="gallery-text text-center">{{ distro.name }}</div>
       </v-card>
     </div>
@@ -32,9 +32,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.c-grayish {
-  color: #444;
-}
-</style>

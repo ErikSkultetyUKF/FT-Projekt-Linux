@@ -10,7 +10,7 @@
 
     <Accordion></Accordion>
 
-    <div class="zdroje mt-16">
+    <div class="mt-16">
       <h5 class="text-h5"><b>Použité zdroje:</b></h5>
       <a href="https://www.linux.com/what-is-linux/" target="_blank">https://www.linux.com/what-is-linux/</a><br>
       <a href="https://gs.statcounter.com/os-market-share/" target="_blank">https://gs.statcounter.com/os-market-share/</a>

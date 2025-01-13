@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100dvh;
+    margin: 0;
+    line-height: 1.5;
+}
+/* Každý link */
+body a {
+    color: #9090ef;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+body a:hover {
+    color: #7070ef;
+}
+
+/* Zarovnanie obsahu stránky do stredu */
+main {
+    margin: 4rem auto;
+    width: 80%;
+}
+
+/* Veľkosti obrázkov */
+.img-350 {
+    width: 350px;
+}
+.img-distro-logo {
+    height: 3rem;
+    padding: 0.4rem 0.8rem;
+}
+.img-gallery {
+    width: 100%;
+    height: auto;
+}
+.img-gallery-fixed-210 {
+    width: 210px;
+    height: 210px;
+}
+
+/* Štýl pre linky v komunite */
+.gallery {
+    display: inline-flex;
+    margin: 0.25rem;
+    width: 210px;
+    border: 1px solid transparent;
+    transition: all 100ms ease-in-out;
+}
+.gallery:hover {
+    border: 1px solid #a0a0ef;
+}
+/* Text linku */
+.gallery-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 100px;
+}
+
+/* Desktopové zobrazenie, zmeny velkostí */
+@media screen and (min-width: 768px) {
+    .img-distro, .img-chart {
+        max-width: 610px;
+    }
+}
+
+/* Mobilné zobrazenie, zmeny velkostí + zobrazovanie/skrývanie */
+@media screen and (max-width: 767px) {
+    .img-distro, .gallery {
+        width: 100% !important;
+    }
+
+    /* Pre logá distribúcií */
+    /* .img-gallery-fixed-210 {
+        width: 100%;
+    } */
+}

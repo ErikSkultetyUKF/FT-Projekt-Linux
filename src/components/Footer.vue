@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="text-center bg-grey-lighten-4 py-10">
+  <v-footer class="text-center py-10">
     <v-row>
 
       <v-col>
@@ -26,9 +26,3 @@
     </v-row>
   </v-footer>
 </template>
-
-<style scoped>
-.footer {
-  background-color: #f5f5f5;
-}
-</style>

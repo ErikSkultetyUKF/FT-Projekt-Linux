@@ -5,30 +5,30 @@
 
     <v-btn
         @click="formStore.increment()"
-        class="bg-grey-lighten-5 ma-1"
+        class="ma-1"
     >Zvýšiť</v-btn>
 
     <v-btn
         @click="formStore.decrement()"
-        class="bg-grey-lighten-5 ma-1"
+        class="ma-1"
         :disabled="formStore.totalPrice <= 1"
     >Znížiť</v-btn>
     <br>
 
     <v-btn
         @click="formStore.makeDouble()"
-        class="bg-grey-lighten-5 ma-1"
+        class="ma-1"
     >Zdvojnásobiť</v-btn>
 
     <v-btn
         @click="formStore.makeHalf()"
-        class="bg-grey-lighten-5 ma-1"
+        class="ma-1"
         :disabled="formStore.totalPrice <= 1"
     >Polovica</v-btn>
     <br>
 
     <v-btn @click="formStore.toggleDisable()"
-           class="bg-grey-lighten-5 ma-1"
+           class="ma-1"
     >Vlastné</v-btn>
 
     <v-row class="my-5 justify-center">
