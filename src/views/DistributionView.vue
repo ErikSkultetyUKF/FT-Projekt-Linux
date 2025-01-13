@@ -1,24 +1,27 @@
 <template>
+  <v-container>
+    <v-btn @click="$router.back()">Späť</v-btn>
 
-  <v-btn @click="$router.back()">Späť</v-btn>
+    <div class="flex-center my-8">
+      <img id="logo" :src="'/img/distributions/logo/'+ distro.logo" :alt="distro.logoDesc">
+      <h3 class="text-h3">{{ distro.name }}</h3>
+    </div>
 
-  <div class="flex-center">
-    <img id="logo" :src="'/img/distributions/logo/'+ distro.logo" :alt="distro.logoDesc">
-    <h1>{{ distro.name }}</h1>
-  </div>
+    <div>
+      <img class="distro-img" :src="'/img/distributions/' + distro.img" :alt="distro.imgDesc">
+      <p class="my-10">{{ distro.text }}</p>
+    </div>
 
-  <img class="distro-img" :src="'/img/distributions/' + distro.img" :alt="distro.imgDesc">
-  <p>{{ distro.text }}</p>
+    <div class="zdroje mt-0">
+      <h5 class="text-h5"><b>Webová stránka:</b></h5>
+      <a :href="distro.weblink" target="_blank">{{ distro.weblink }}</a>
 
-  <h3>Webová stránka:</h3>
-  <div class="zdroje" style="margin-top: 0;">
-    <a :href="distro.weblink" target="_blank">{{ distro.weblink }}</a>
-  </div>
+      <h5 class="text-h5 mt-10"><b>Použité zdroje:</b></h5>
+      <a href="https://www.atatus.com/blog/top-10-linux-distros/" target="_blank">https://www.atatus.com/blog/top-10-linux-distros/</a>
+    </div>
 
-  <div class="zdroje">
-    <h3>Použité zdroje:</h3>
-    <a href="https://www.atatus.com/blog/top-10-linux-distros/" target="_blank">https://www.atatus.com/blog/top-10-linux-distros/</a>
-  </div>
+    <v-btn @click="$router.back()" class="mt-8">Späť</v-btn>
+  </v-container>
 </template>
 
 <script>

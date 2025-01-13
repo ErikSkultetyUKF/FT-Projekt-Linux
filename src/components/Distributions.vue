@@ -1,13 +1,21 @@
 <template>
-  <RouterLink v-for="distro in distros" :key="distro.id" :to="{
-        name: 'distribution',
+  <RouterLink
+      v-for="distro in distros"
+      :key="distro.id"
+      :to="{
+        name: 'Distribúcia',
         params: {
           slug: distro.slug,
         }
       }">
+
     <div class="gallery">
-      <v-card>
-        <img class="gallery-img-fixed-210" :src="'/img/distributions/logo/' + distro.logo" :alt="distro.logoDesc">
+      <v-card class="c-grayish">
+        <img
+            class="gallery-img-fixed-210"
+            :src="'/img/distributions/logo/' + distro.logo"
+            :alt="distro.logoDesc"
+        >
         <div class="gallery-text text-center">{{ distro.name }}</div>
       </v-card>
     </div>
@@ -24,3 +32,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.c-grayish {
+  color: #444;
+}
+</style>

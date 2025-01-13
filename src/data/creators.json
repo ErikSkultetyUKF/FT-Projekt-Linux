@@ -1,32 +1,46 @@
 {
   "creators": [
     {
+      "id": 1,
       "name": "The Linux Experiment (Youtube)",
       "link": "https://youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw/",
       "img": "the-linux-experiment.png",
-      "imgDesc": "the-linux-experiment-logo",
-      "id": 1
+      "imgDesc": "the-linux-experiment-logo"
     },
     {
+      "id": 2,
       "name": "Learn Linux TV (Youtube)",
       "link": "https://youtube.com/channel/UCxQKHvKbmSzGMvUrVtJYnUA/",
       "img": "learn-linux-tv.png",
-      "imgDesc": "learn-linux-tv-logo",
-      "id": 2
+      "imgDesc": "learn-linux-tv-logo"
     },
     {
+      "id": 3,
       "name": "DistroTube (Youtube)",
       "link": "https://youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg/",
       "img": "distrotube.png",
-      "imgDesc": "distrotube-logo",
-      "id": 3
+      "imgDesc": "distrotube-logo"
     },
     {
+      "id": 4,
       "name": "TechHut (Youtube)",
       "link": "https://youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w/",
       "img": "techhut.png",
-      "imgDesc": "techhut-logo",
-      "id": 4
+      "imgDesc": "techhut-logo"
+    },
+    {
+      "id": 5,
+      "name": "Linux Tex (Youtube)",
+      "link": "https://youtube.com/channel/UCS25Y-2DUke9uOU5OtLwwgg",
+      "img": "linux-tex.png",
+      "imgDesc": "linux-tex-logo"
+    },
+    {
+      "id": 6,
+      "name": "Chris Titus Tech (Youtube)",
+      "link": "https://youtube.com/channel/UCg6gPGh8HU2U01vaFCAsvmQ/",
+      "img": "ctt.png",
+      "imgDesc": "chris-titus-tech-logo"
     }
   ]
 }

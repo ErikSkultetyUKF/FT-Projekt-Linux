@@ -5,8 +5,13 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Domov',
       component: () => import('@/views/HomeView.vue'),
+    },
+    {
+      path: '/o-linuxe',
+      name: 'O Linuxe',
+      component: () => import('@/views/AboutView.vue'),
     },
     {
       path: '/distribucie',
@@ -15,7 +20,7 @@ const router = createRouter({
     },
     {
       path: '/distribucia/:slug',
-      name: 'distribution',
+      name: 'Distribúcia',
       component: () => import('@/views/DistributionView.vue'),
       props: true
     },
@@ -30,10 +35,15 @@ const router = createRouter({
       component: () => import('@/views/CommunityView.vue'),
     },
     {
-      path: '/olinuxe',
-      name: 'O Linuxe',
-      component: () => import('@/views/AboutView.vue'),
+      path: '/dakujeme',
+      name: 'Ďakujeme',
+      component: () => import('@/views/ThankView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'Nenašlo sa',
+      component: () => import('@/views/NotFoundView.vue'),
+    }
   ],
 })
 

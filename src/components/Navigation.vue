@@ -1,13 +1,16 @@
 <template>
   <v-app-bar>
     <v-tab to="/" class="pa-6">Domov</v-tab>
-    <v-tab v-for="page in pages" :key="page.id" :to="{
+    <v-tab
+       v-for="page in pages"
+       :key="page.id"
+       :to="{
          name: page.name,
          params: {
            slug: page.slug
          }
-        }"
-        class="pa-6"
+       }"
+       class="pa-6"
        >{{ page.name }}</v-tab>
   </v-app-bar>
 </template>

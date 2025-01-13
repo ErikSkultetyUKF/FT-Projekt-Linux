@@ -1,11 +1,19 @@
 <template>
   <v-container>
-    <h1>Populárni tvorcovia na tému Linux</h1>
+    <h3 class="text-h3 mb-10">Populárni tvorcovia na tému Linux</h3>
 
-    <div v-for="creator in creators" :key="creator.id" class="gallery">
+    <div
+        v-for="creator in creators"
+        :key="creator.id"
+        class="gallery"
+    >
       <v-card>
         <a :href="creator.link" target="_blank">
-          <img class="gallery-img" :src="'/img/community/content-creators/' + creator.img" :alt="creator.imgDesc">
+          <img
+              class="gallery-img"
+              :src="'/img/community/content-creators/' + creator.img"
+              :alt="creator.imgDesc"
+          >
           <div class="gallery-text text-center">{{ creator.name }}</div>
         </a>
       </v-card>
