@@ -1,20 +1,27 @@
 <template>
   <v-container>
-    <h3 class="text-h3 mt-5 mb-10">Populárne stránky na tému Linux</h3>
+    <h3 class="text-h3 mt-5 mb-10">
+      Populárne stránky na tému Linux
+    </h3>
 
     <div
-        v-for="webpage in webpages"
-        :key="webpage.id"
-        class="gallery"
+      v-for="webpage in webpages"
+      :key="webpage.id"
+      class="gallery"
     >
       <v-card>
-        <a :href="webpage.link" target="_blank">
+        <a
+          :href="webpage.link"
+          target="_blank"
+        >
           <img
-              class="img-gallery"
-              :src="'/img/community/webpages/' + webpage.img"
-              :alt="webpage.imgDesc"
+            class="img-gallery"
+            :src="'/img/community/webpages/' + webpage.img"
+            :alt="webpage.imgDesc"
           >
-          <div class="gallery-text text-center">{{ webpage.name }}</div>
+          <div class="gallery-text text-center">
+            {{ webpage.name }}
+          </div>
         </a>
       </v-card>
     </div>

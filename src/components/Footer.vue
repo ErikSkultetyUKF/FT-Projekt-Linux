@@ -3,7 +3,9 @@
     <v-row>
 
       <v-col>
-        <p><b>Kontakt</b></p>
+        <p>
+          <b>Kontakt</b>
+        </p>
 
         <p class="text-subtitle-1">
           info@projektlinux.org<br>
@@ -13,14 +15,26 @@
       </v-col>
 
       <v-col>
-        <p><b>Zdrojový kód:</b></p>
-
-        <p class="text-subtitle-1">
-          <a href="https://github.com/ErikSkultetyUKF/FT-Projekt-Linux" target="_blank">https://github.com/ErikSkultetyUKF/FT-Projekt-Linux</a>
+        <p>
+          <b>Zdrojový kód:</b>
         </p>
 
-        <p><b>Vytvorené pre vzdelávacie účely</b></p>
-        <p class="text-subtitle-1">©2024-2025 Vytvoril a nadizajnoval: Erik Škultéty</p>
+        <p class="text-subtitle-1">
+          <a
+            href="https://github.com/ErikSkultetyUKF/FT-Projekt-Linux"
+            target="_blank"
+          >
+            https://github.com/ErikSkultetyUKF/FT-Projekt-Linux
+          </a>
+        </p>
+
+        <p>
+          <b>Vytvorené pre vzdelávacie účely</b>
+        </p>
+
+        <p class="text-subtitle-1">
+          ©2024-2025 Vytvoril a nadizajnoval: Erik Škultéty
+        </p>
       </v-col>
 
     </v-row>

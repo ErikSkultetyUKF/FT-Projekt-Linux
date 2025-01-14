@@ -6,10 +6,16 @@ import { RouterLink, RouterView } from 'vue-router'
   <v-theme-provider :theme="theme"class="pa-10">
     <v-app>
 
-      <Navigation :theme="theme" @toggle-theme="switchTheme" ></Navigation>
+      <Navigation
+          :theme="theme"
+          @toggle-theme="switchTheme"
+      >
+      </Navigation>
+
       <v-main>
         <RouterView :key="$route.fullPath"/>
       </v-main>
+      
       <Footer></Footer>
       
     </v-app>

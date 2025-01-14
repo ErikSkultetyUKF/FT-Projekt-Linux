@@ -11,11 +11,11 @@
 
     <div class="gallery">
       <v-card>
-        <v-img
-            :src="'/img/distributions/logo/' + distro.logo"
-            :alt="distro.logoDesc"
-            class="img-gallery-fixed-210"
-        ></v-img>
+        <img
+          :src="'/img/distributions/logo/' + distro.logo"
+          :alt="distro.logoDesc"
+          class="img-gallery-fixed-210"
+        >
         <div class="gallery-text text-center">{{ distro.name }}</div>
       </v-card>
     </div>

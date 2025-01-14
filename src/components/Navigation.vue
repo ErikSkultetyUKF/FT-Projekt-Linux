@@ -1,8 +1,13 @@
 <template>
   <v-app-bar>
     <v-tabs>
+      <v-tab
+          to="/"
+          class="pa-6"
+      >
+        Domov
+      </v-tab>
 
-      <v-tab to="/" class="pa-6">Domov</v-tab>
       <v-tab
          v-for="page in pages"
          :key="page.id"
@@ -13,13 +18,21 @@
            }
          }"
          class="pa-6"
-         >{{ page.name }}</v-tab>
+         >
+        {{ page.name }}
+      </v-tab>
 
     </v-tabs>
-
     <v-spacer></v-spacer>
-    <v-label>MOTÍV</v-label>
-    <v-switch class="d-flex justify-center mx-5" @click="switchTheme"></v-switch>
+
+    <v-label>
+      MOTÍV
+    </v-label>
+
+    <v-switch
+        @click="switchTheme"
+        class="d-flex justify-center mx-5"
+    ></v-switch>
 
   </v-app-bar>
 </template>
